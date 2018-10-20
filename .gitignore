@@ -1,0 +1,2 @@
+#Ignores the defined files for git pushes
+/node_modules
