@@ -12,6 +12,7 @@ app.get('/', function(req, res){
     res.sendFile(__dirname + '/index.html');
 });
 
+// ADDED COMMENT FOR JS FILE
 io.sockets.on('connection', function(socket){
 connections.push(socket);
 console.log('Connected: %s sockets connected', connections.length);
